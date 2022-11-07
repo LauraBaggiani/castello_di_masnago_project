@@ -1,0 +1,30 @@
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Laura Baggiani">
+	<genere>Pittura</genere>
+	<titolo-item>Tamar di Giuda</titolo-item>
+	<immagine riferimento="img/tamar_hayez.jpg"/>
+
+	<metadati>
+		<dc:title>Tamar di Giuda</dc:title>
+		<dc:creator>Hayez, Francesco</dc:creator>
+		<dc:creator>http://viaf.org/viaf/283001</dc:creator>
+		<dc:date>1847</dc:date>
+		<dc:created>Romanticismo</dc:created>
+<!--dubbio subject-->
+		<dc:subject >the topic?</dc:subject>
+		<dc:description>Dipinto rappresentante Tamar, un soggetto biblico</dc:description>
+		<dc:publisher>Castello di Masnago</dc:publisher>
+		<dc:type xml:lang="it">Pittura</dc:type>
+		<dc:type xml:lang="eng">oil painting</dc:type>
+<!--dubbio format-->
+		<dc:format>image/jpeg</dc:format>
+		<dc:identifier>0001</dc:identifier>
+		<dc:source/>
+		<dc:languages>it</dc:languages>
+		<dc:relation/>
+		<dc:coverage>Italia</dc:coverage>
+		<dc:rights/>
+		<dc:contributor>Baggiani, Laura</dc:contributor>
+	</metadati>
+</collezione>
+
+

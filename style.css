@@ -43,8 +43,18 @@ ul.breadcrumb li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);}
 
+#museum-text {color: ; padding-top: 60px; padding-bottom: 20px;}
+
 .explore-section {padding-top: 60px;
 padding-bottom: 60px;}
+
+
+  /* CAROUSEL Make the image fully responsive */
+  div.carousel-item { width: 100%; height: 500px;}
+    .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
 
 /*SLIDESHOW*/
 
