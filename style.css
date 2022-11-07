@@ -145,13 +145,13 @@ padding-bottom: 60px;}
 #collection-text {padding-bottom: 60px;}
 b {color: #a96e5b}
   
-  .collaps-text:link {
-  color: #caa79b;
+  .collaps-text {
+  color: #caa79b !important;
   background-color: transparent;
-  text-decoration: underline;}
+  text-decoration: none;}
 
   .collaps-text:hover {
-    color: blue;
+    
     background-color: transparent;
     text-decoration: underline;
   }
@@ -257,6 +257,14 @@ sub:hover {background-color: transparent;
   text-decoration: underline;
   }
 
+  #collap-item {
+  color: #1a1a19 !important;
+  background-color: transparent;
+  text-decoration: none;}
+
+  #collap-item:hover {  
+    background-color: transparent;
+    text-decoration: underline;}
 
 
 
@@ -275,4 +283,5 @@ div.intestazione {padding-top: 30px;
   float: center;}
 div.social_icon {padding-top: 40px;
 float: center;}
+img.icon {width: 40px; height: 40px;}
 
