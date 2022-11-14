@@ -44,37 +44,12 @@ ul.breadcrumb li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);}
 
-
-.section {padding-left: 40px; padding-right: 40px;}
-.grid-container {grid-gap: 24px;}
-.grid-4 {grid-template-columns: repeat(4, 1fr);}
-.grid {display: grid;}
-.block {width: 300px; height: 450px;}
-
 #museum-text {color: ; padding: 100px 0px 20px 0px;}
-
-.explore-section {padding-top: 60px;
-padding-bottom: 60px;}
-
-.card-body-s {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-img.block {width: 250px; height: 300px}
-
-
 
 /* CAROUSEL Make the image fully responsive */
   div.carousel-item { width: 100%; height: 500px;}
-    .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
+  .carousel-inner img { width: 100%; height: 100%;}
+
   .text-car {
   color: #f2f2f2;
   font-size: 30px;
@@ -204,6 +179,8 @@ p.card-text {line-height: 1;}
 div.collezione {padding-top: 30px;
 padding-bottom: 30px;}
 
+.img-pubblicita {width:100% ;height:80px ;}
+
 /*pagination*/
 .pagination, a.pagination {
   color: black;
@@ -215,9 +192,9 @@ padding-bottom: 30px;}
 div.pagin-container { padding-bottom: 30px;}
 
 .pagination a.active {
-  background-color: dodgerblue;
+  background-color: #caa79b ;
   color: white;}
-.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {background-color: #ede2de;}
 
 
 
@@ -244,16 +221,6 @@ sub:link { background-color: transparent;
 sub:hover {background-color: transparent;
   text-decoration: underline;
   }
-
-  #collap-item {
-  color: #1a1a19 !important;
-  background-color: transparent;
-  text-decoration: none;}
-
-  #collap-item:hover {  
-    background-color: transparent;
-    text-decoration: underline;}
-
 
 #myImg {cursor: pointer;
   transition: 0.3s;
@@ -339,6 +306,15 @@ sub:hover {background-color: transparent;
   }
 }
 
+  #collap-item {
+  color: #1a1a19 !important;
+  background-color: transparent;
+  text-decoration: none;}
+
+  #collap-item:hover {  
+    color: #a96e5b;
+    background-color: blueviolet !important;
+    text-decoration: underline;}
 
 
 
