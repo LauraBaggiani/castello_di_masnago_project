@@ -106,7 +106,7 @@
 							<tr>
 								<th>Inventario</th>
 								<td>0001</td>
-								<th>Posizione</th>
+								<th>Collocazione</th>
 								<td><a href="#" class="link-item">Sala X</a></td>
 							</tr>
 
@@ -159,7 +159,16 @@
 			</div>
 
 			<div class="col-md-4">
-				<img src="img/tamar_hayez.jpg" class="item-image" alt="Tamar di Giuda - Hayez"></img>
+				<img src="img/tamar_hayez.jpg" class="item-image" alt="Tamar di Giuda - Hayez" id="myImg"></img>
+				<!-- The Modal -->
+					<div id="myModal" class="modal">
+					  <span class="close">&times;</span>
+					  <img class="modal-content" id="img01">
+					  <div id="caption"></div>
+					</div>
+
+
+
 			</div>
 			<div class="col-md-2">
 				<div class="item dropdown">
@@ -186,10 +195,17 @@
 
 					<div class="col-md-6">
 						<h4>I restauri</h4>
-						<p></p>
+						<h6>1983</h6>
+						<p>Il restauro dell'opera del 1983 è stato eseguito allo scopo di effettuare il monitoraggio periodico dell'opera e in occasione della mostra che si terrà presso le Gallerie D'Italia a Milano. 
+							Il restauro è stato eseguito dal team di diagnostica e restauro del reparto dei Musei Civici di Varese. 
+							L'operazione eseguita ha previsto la pulitura dello strato pittorico superficiale al fine di uniformare la palette coloristica e migliorarne il contrasto. 
+							L'attività preliminare ha previsto lo studio delle vernici protettive utilizzate per creare lo strato protettivo dell'opera, in questo modo è stato possibile identificare il miglior solvente da poter utilizzare per rimuovere questo strato. Una volta rimosso lo strato di vernice protettiva si è passati alla verifica dello stato del quadro, una volta assicurata la sua buona salute è stata effettuata una pulitura dei pigmenti. Una volta ultimate le verifiche è stata applicata nuovamente una vernice protettiva che metta in evidenza cromie e contrasti.
+						</p>
+
 					</div>
+
 					<div class="col-md-4">
-						<iframe frameborder="0" class="juxtapose" width="100%" height="70" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=ba9f1830-5eab-11ed-b5bd-6595d9b17862"></iframe>
+						<iframe frameborder="0" class="juxtapose" width="100%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=77c5cf0c-642f-11ed-b5bd-6595d9b17862"></iframe>
 					</div>
 					<div class="col-md-2">download</div>
 					</div>
@@ -216,13 +232,14 @@
 		<div class="container-fluid">
 			<div class="row">
 
-				<div class="col-md-5 intestazione">
+				<div class="col-md-4 intestazione">
 					<img src="img/Castello-bg_grey.jpg" alt="Logo" style="width:150px;"></img>
 					<h1 class="title-logo" style="font-size: 30px;">Castello di</h1><h1 class="title-logo" style="font-size: 30px;">Masnago</h1>
 					<p style="font-size: 15px;">Via Cola di Rienzo 40, Varese <br> 0332 820409</p>
 				</div>
 
-				<div class="col-md-3 social_icon">
+				<div class="col-md-4 social_icon">
+					<div>
 						<a class="social_icon" href="https://www.facebook.com/castellodimasnago/" target="__parent">
 							<img src="img/icon-fb.png"  alt="icona facebook" class="icon"></img>
 						</a>
@@ -232,6 +249,13 @@
 						<a class="social_icon" href="#" target="__parent">
 							<img src="img/icon-mail.png" alt="icona mail" class="icon"></img>
 						</a>
+					</div>
+					<div class="int-logo">
+						<img class="int-logo" src="img/comune_musei-civici-varese.png"></img>
+					</div>
+					<div class="int-logo">
+						<img class="int-logo" src="img/ministero_cultura.png"></img>
+					</div>
 				</div>
 
 
@@ -249,6 +273,30 @@
 	</footer>
 
         <script src="BOOTSTRAP/js/bootstrap.bundle.min.js"></script>
+        <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+</head>
 
 	</body>
 </html>
