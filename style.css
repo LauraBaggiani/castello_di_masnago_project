@@ -46,9 +46,12 @@ ul.breadcrumb li a:hover {
 
 #museum-text {color: ; padding: 100px 0px 20px 0px;}
 
+.section_carouselhome {padding-bottom: 150px;}
+
 /* CAROUSEL Make the image fully responsive */
   div.carousel-item { width: 100%; height: 500px;}
   .carousel-inner img { width: 100%; height: 100%;}
+  .carousel-mostre img {width: 700px: height 300px;}
 
   .text-car {
   color: #f2f2f2;
@@ -60,24 +63,24 @@ ul.breadcrumb li a:hover {
   text-align: center;
 }
 
-/*pink section*/
-div.pink-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 20px;}
-.capolavori {text-align: center; font-size: 50px; padding-bottom: 40px;}
+/*blue section*/
+div.blue-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 20px;}
+.capolavori, .mostre_in_corso {text-align: center; font-size: 50px; padding-bottom: 40px;}
 
 /* BACKGROUND_BLOCCHI*/
 #block_1 {background-color: white; padding: 15px 0px 15px 0px;}
 .block_2b {padding-top: 30px; padding-left: 40px !important; padding-right: 40px !important;}
 .block_2 {background-color: white; height: 480px;}
-.title-pink {text-align: center;}
-.title-pink:hover {text-decoration: none !important;}
+.title-blue {text-align: center;}
+.title-blue:hover {text-decoration: none !important;}
 .block_2_text {padding: 10px 20px 10px 20px;}
 
 
 .title-enfatized {background-color: #c7d1d1; color: white;}
-#img_pink_card {padding: 30px 30px 30px 30px;}
+#img_blue_card {padding: 30px 30px 30px 30px;}
 
 #scopri {padding: 15px 30px 15px 40px;}
-.pink-text-link { color: black !important;
+.blue-text-link { color: black !important;
   background-color: transparent;
   text-decoration: none; }
 .pink-text-link:hover {
@@ -88,24 +91,78 @@ div.pink-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 
 .tuttelestorie:hover {background-color: #d3cbe6;}
 
 
-
 /*MOSTRE*/
-#mostre-in-corso {
+.mostre-section {padding-top: 100px; padding-bottom: 100px; }
+
+/*slideshow*/
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
   position: relative;
-}
+  margin: auto;}
 
-.text-mostre { font-family: 'Abril Fatface', cursive;
-  font-family: 'Exo 2', sans-serif;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
   position: absolute;
-  font-size: 150%;
-  top: 25%;
-  left: 30px;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
-.text-mostre-hd {font-size: 60px;}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
 
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
+.active, .dot:hover {
+  background-color: #717171;
+}
 
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 
 
 
