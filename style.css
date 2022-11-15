@@ -60,6 +60,34 @@ ul.breadcrumb li a:hover {
   text-align: center;
 }
 
+/*pink section*/
+div.pink-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 20px;}
+.capolavori {text-align: center; font-size: 50px; padding-bottom: 40px;}
+
+/* BACKGROUND_BLOCCHI*/
+#block_1 {background-color: white; padding: 15px 0px 15px 0px;}
+.block_2b {padding-top: 30px; padding-left: 40px !important; padding-right: 40px !important;}
+.block_2 {background-color: white; height: 480px;}
+.title-pink {text-align: center;}
+.title-pink:hover {text-decoration: none !important;}
+.block_2_text {padding: 10px 20px 10px 20px;}
+
+
+.title-enfatized {background-color: #c7d1d1; color: white;}
+#img_pink_card {padding: 30px 30px 30px 30px;}
+
+#scopri {padding: 15px 30px 15px 40px;}
+.pink-text-link { color: black !important;
+  background-color: transparent;
+  text-decoration: none; }
+.pink-text-link:hover {
+  background-color: transparent;
+  text-decoration: underline;}
+
+.tuttelestorie {padding: 20px 80px 20px 10px !important; color: black; text-decoration: none;}
+.tuttelestorie:hover {background-color: #d3cbe6;}
+
+
 
 /*MOSTRE*/
 #mostre-in-corso {
@@ -306,14 +334,14 @@ sub:hover {background-color: transparent;
   }
 }
 
-  #collap-item {
+.scopridipiu {
   color: #1a1a19 !important;
   background-color: transparent;
   text-decoration: none;}
 
-  #collap-item:hover {  
+.scopridipiu:hover {  
     color: #a96e5b;
-    background-color: blueviolet !important;
+    background-color: #d3cbe6;
     text-decoration: underline;}
 
 
