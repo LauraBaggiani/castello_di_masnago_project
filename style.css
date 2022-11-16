@@ -76,11 +76,13 @@ div.blue-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 
 .block_2_text {padding: 10px 20px 10px 20px;}
 
 
-.title-enfatized {background-color: #c7d1d1; color: white;}
+.title-enfatized {background-color: #c7d1d1; color: white; padding: 0px 5px 0px 5px; 
+  }
 #img_blue_card {padding: 30px 30px 30px 30px;}
 
 #scopri {padding: 15px 30px 15px 40px;}
 .blue-text-link { color: black !important;
+
   background-color: transparent;
   text-decoration: none; }
 .pink-text-link:hover {
@@ -392,13 +394,13 @@ sub:hover {background-color: transparent;
 }
 
 .scopridipiu {
-  color: #1a1a19 !important;
+  color: #272725 !important;
   background-color: transparent;
   text-decoration: none;}
 
 .scopridipiu:hover {  
-    color: #a96e5b;
-    background-color: #d3cbe6;
+    color: white !important;
+    background-color: #caa79b;
     text-decoration: underline;}
 
 
@@ -418,7 +420,7 @@ div.social_icon {padding-top: 40px; float: center;}
 img.icon {width: 40px; height: 40px;}
 
 div.int-logo{padding: 15px 0px 30px; float: center;}
-.int-logo {width: 130px; height: 40px;}
+.int-logo {width: 140px; height: 40px;}
 
 
 
