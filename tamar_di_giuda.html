@@ -46,8 +46,6 @@
 									<li><a class="dropdown-item" href="la_collezione.html">Collezione</a></li>
 									<li><hr class="dropdown-divider"></li>
 									<li><a class="dropdown-item" href="#">Le Sale</a></li>
-									<li><a class="dropdown-item" href="#">Arte Antica</a></li>
-									<li><a class="dropdown-item" href="#">Arte Moderna</a></li>
 									<li><a class="dropdown-item" href="#">Autori</a></li>
 							</ul>
 						</div>		    
@@ -77,7 +75,7 @@
 		<ul class="breadcrumb">
 		  <li><a href="index.html">Home</a></li>
 		  <li><a href="la_collezione.html">La Collezione</a></li>
-		  <li>Item</li>
+		  <li>Tamar di Giuda</li>
 		</ul>
 	</div>
 <br>
@@ -102,8 +100,8 @@
 							<tr>
 								<th>Autore</th>
 								<td><a href="#" class="link-item">Francesco Hayez</a>
-									<a href="https://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=500019066" title="Identificativo ULAF di Hayez, Francesco" target="_blank"><b><sub>ULAF</sub></b></a><sub>-</sub>
-									<a href="https://viaf.org/viaf/283001/" title="Identificativo VIAF di Hayez, Francesco" target="_blank"><b><sub>VIAF</sub></b></a></td>
+									<a href="https://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=500019066" title="Getty Union List of Artist Names" target="_blank"><b><sub>ULAF</sub></b></a><sub>-</sub>
+									<a href="https://viaf.org/viaf/283001/" title="Virtual International Authority File" target="_blank"><b><sub>VIAF</sub></b></a></td>
 							</tr>
 							<tr>
 								<th>Inventario</th>
@@ -116,14 +114,14 @@
 								<th>Datazione</th>
 								<td>1847</td>
 								<th>Tipologia</th>
-								<td><a href="#" class="link-item">pittura</a><a href="https://www.getty.edu/vow/AATFullDisplay?find=painting&logic=AND&note=&english=N&prev_page=5&subjectid=300033618" target="_blank" title="Identificativo AAF di dipinti"><b><sub>AAF</sub></b></a></td>
+								<td><a href="#" class="link-item">pittura</a><a href="https://www.getty.edu/vow/AATFullDisplay?find=painting&logic=AND&note=&english=N&prev_page=5&subjectid=300033618" target="_blank" title="Getty Art & Architecture Thesaurus"><sub><b>AAF</b></sub></a></td>
 
 							</tr>
 							<tr>
 								<th>Periodo</th>
 								<td><a href="#" class="link-item">1800</a></td>
 								<th>Tecnica</th>
-								<td>olio su tela <a href="https://www.getty.edu/vow/AATFullDisplay?find=oil&logic=AND&note=&english=N&prev_page=4&subjectid=300178684" target="_blank" title="Identificativo AAF tecnica pittura ad olio"><b><sub>AAF</sub></b></a></td>
+								<td>olio su tela <a href="https://www.getty.edu/vow/AATFullDisplay?find=oil&logic=AND&note=&english=N&prev_page=4&subjectid=300178684" target="_blank" data-toggle="tooltip" title="Getty Art & Architecture Thesaurus"><b><sub>AAF</sub></b></a></td>
 							</tr>
 							<tr>
 								<th>Misure</th>
@@ -284,6 +282,8 @@
 
         <script src="BOOTSTRAP/js/bootstrap.bundle.min.js"></script>
         <script>
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -304,6 +304,12 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
+</script>
+<!--tooltip--> 
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
 </script>
 
 </head>

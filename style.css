@@ -81,13 +81,14 @@ div.blue-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 
 #img_blue_card {padding: 30px 30px 30px 30px;}
 
 #scopri {padding: 15px 30px 15px 40px;}
-.blue-text-link { color: black !important;
 
+.blue-text-link { color: black !important;
   background-color: transparent;
-  text-decoration: none; }
-.pink-text-link:hover {
+  text-decoration: none !important; }
+.blue-text-link:hover {
   background-color: transparent;
-  text-decoration: underline;}
+  text-decoration: none !important;
+color: black !important;}
 
 .tuttelestorie {padding: 20px 80px 20px 10px !important; color: black; text-decoration: none;}
 .tuttelestorie:hover {background-color: #d3cbe6;}
@@ -303,10 +304,11 @@ div.pagin-container { padding-bottom: 30px;}
   text-decoration: underline;
   }
 
-sub:link { background-color: transparent;
-  text-decoration: none;}
+sub:link { background-color: transparent !important;
+  text-decoration: none !important;}
 sub:hover {background-color: transparent;
   text-decoration: underline;
+  color: #a96e5b !important;
   }
 
 #myImg {cursor: pointer;
