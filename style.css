@@ -76,15 +76,15 @@ div.blue-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 
 .block_2_text {padding: 10px 20px 10px 20px;}
 
 
-.title-enfatized {background-color: #c7d1d1; color: white; padding: 0px 5px 0px 5px; 
-  }
+.title-enfatized {background-color: #c7d1d1; color: white; padding: 0px 5px 0px 5px; }
+.title-enfatized:hover {background-color: #abbaba;}
 #img_blue_card {padding: 30px 30px 30px 30px;}
 
 #scopri {padding: 15px 30px 15px 40px;}
 
 .blue-text-link { color: black !important;
   background-color: transparent;
-  text-decoration: none !important; }
+  text-decoration: none; }
 
 .blue-text-link:hover {
   color: black !important;
