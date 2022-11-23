@@ -1,4 +1,4 @@
-<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Laura Baggiani">
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Laura Baggiani">
 	<genere>Pittura</genere>
 	<titolo-item>Tamar di Giuda</titolo-item>
 	<immagine riferimento="img/tamar_hayez.jpg"/>
