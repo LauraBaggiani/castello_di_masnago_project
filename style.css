@@ -78,6 +78,7 @@ div.blue-section {background-color: #e8e4f2; padding-top: 20px; padding-bottom: 
 
 .title-enfatized {background-color: #c7d1d1; color: white; padding: 0px 5px 0px 5px; }
 .title-enfatized:hover {background-color: #abbaba;}
+
 #img_blue_card {padding: 30px 30px 30px 30px;}
 
 #scopri {padding: 15px 30px 15px 40px;}
@@ -195,6 +196,17 @@ b {color: #a96e5b}
     color: #e5d3cd;
     background-color: transparent;
     text-decoration: underline;
+  }
+
+  .sale-text {
+  color: #a96e5b !important;
+  background-color: transparent;
+  text-decoration: none;}
+
+.sale-text:hover {
+  color: #a96e5b !important;
+  background-color: transparent;
+  text-decoration: underline;
   }
 
 #filter-btn { background-color: white;
@@ -406,6 +418,11 @@ sub:hover {background-color: transparent;
     background-color: #caa79b;
     text-decoration: underline;}
 
+.dati_tecnici {
+  background-color: #c7d1d1; color: black; padding: 0px 5px 0px 5px; text-decoration: none;}
+.dati_tecnici:hover {
+  color: white !important;
+  background-color: #abbaba;}
 
 
 
